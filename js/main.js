@@ -157,6 +157,15 @@
   });
 
 /* 
+/* stellar js
+  ========================================================*/
+  $.stellar({
+    horizontalScrolling: false,
+    verticalOffset: 30,
+    responsive: false
+  });
+
+/* 
    Page Loader
    ========================================================================== */
    $(window).on('load',function() {
